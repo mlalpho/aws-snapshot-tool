@@ -240,7 +240,7 @@ result = '\nFinished making snapshots at %(date)s with %(count_success)s snapsho
     'count_total': count_total
 }
 message += start_message + "\n\n"
-message = "These are the instances and their volumes:\n"
+message += "These are the instances and their volumes:\n"
 for instance_name in instance_names:
     message += instance_name + "\n"
 
